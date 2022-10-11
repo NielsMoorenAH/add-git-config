@@ -11,5 +11,5 @@ This shell script adds a git config to the chosen directory.
 <br>
 
 ## Personalize the script
-In step 2 you can rename the file to whatever you want by doing: ```sudo cp add-git-config /usr/local/bin/<your chosen name>```).<br>
+In step 2 you can rename the file to whatever you want by doing: ```sudo cp add-git-config /usr/local/bin/<your chosen name>```). Don't forget to change the name in step 3 and use the new command in step 4.<br>
 I called mine ```add-ah``` because I use mine to add my Albert Heijn config.
