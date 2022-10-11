@@ -1,0 +1,20 @@
+#!/bin/sh
+
+if [ -z "$1" ]
+  then
+    echo "No directory supplied"
+    exit 1
+fi
+
+if [ -d "$1" ]
+  then
+    cd $1
+    git config user.name ""
+    git config user.signingkey ""
+    git config user.email ""
+    echo "Added AH config to $1"
+    exit 0
+  else
+    echo "$1 is not a directory"
+    exit 1
+fi
